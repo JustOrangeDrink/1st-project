@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">D&D CHARACTER FORM</h1>
+      <p id="description">This is your character form.</p>
+    </header>
+    <main>
+      <form action="#" method="post" id="survey-form">
+        <fieldset>
+          <label id="name-label">Character's name: <input type="text" id="name" name="name" placeholder="John" required></label>
+          <label id="email-label">Character's email: <input type="email" id="email" name="email" placeholder="john@codecamp.org" required></label>
+          <label id="number-label">Character's age: <input type="number" id="number" min="13" max="120" placeholder="28" name="age"></label>
+          <label>You are a 
+            <select name="select" id="dropdown" required>
+              <option value="">(select one)</option>
+              <option>Game Master</option>
+              <option>Player</option>
+            </select>.</label>
+          <fieldset class="choose">
+          <p>Character's alignment: <p>
+          <input type="radio" name="alignment" id="lwfl" value="lawful" checked> <label for="lwfl">Lawful Good</label>
+          <input type="radio" name="alignment" id="evil" value="evil"> <label for="evil">Chaotic Evil</label>
+            <p>Character's allies: </p>
+            <label for="goblins"><input type="checkbox" id="goblins" value="goblins">Goblins </label>
+            <label for="elves"><input type="checkbox" id="elves" value="elves">Elves </label>
+          </fieldset>
+          <div class="bground">
+            <label>Character's background: </label>
+            <textarea rows="3" cols="30" placeholder="In a distant magic lands..."></textarea>
+          <input type="submit" id="submit" value="Save Character">
+        </div> 
+      </form>
+    </main>
+  </body>
+</html>

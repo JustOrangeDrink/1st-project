@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: linear-gradient(45deg, #112D4E, #3F72AF 100%);
+    color: #EEEEEE;
+    text-align: center;
+    max-width: 100%;
+    font-family: Georgia;
+  }
+  
+  main {
+    background-color: #112D4E;
+    width: 60%;
+    margin: 2em auto;
+    padding-top: 1em;
+  }
+  
+  label {
+    display: block;
+    margin: 0em 0;
+  }
+  
+  input, textarea {
+    width: 100%;
+    margin: 1em auto 2.5em auto;
+  }
+  
+  input[type="radio"] , input[type="checkbox"] {
+    width: unset;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  input[type="submit"] {
+    height: 2em;
+    background-color: #FE7A36;
+    border: none;
+    color: #eeeeee;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  
+  
+  .choose label {
+    display: unset;
+  }
+  
+  fieldset {
+    margin: 0 auto;
+    width: 60%;
+    border: none
+  }
